@@ -105,7 +105,7 @@ public class Main {
         System.out.println(" Задача 4.1 ");
         int[] books = {1, 2, 3, 4, 5, 6, 7, 8, 10, 12};
         for (i = 0; i < books.length; i++)
-            if (books[i] % 2 == 0) {
+            if (books[i] % 2 != 0) {
                 books[i] = books[i] + 1;
             }
         System.out.println(Arrays.toString(books)+ " ");
