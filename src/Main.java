@@ -107,6 +107,7 @@ public class Main {
             if (books[i] % 2 != 0) {
                 books[i] = books[i] + 1;
             }
+
         System.out.println(Arrays.toString(books) + " ");
 
 
