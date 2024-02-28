@@ -16,7 +16,6 @@ public class Main {
         System.out.println(weights[january]);
         for (int i = 0; i < weights.length; i++) {
             System.out.print(weights[i] + " ");
-
         }
         System.out.println();
         int[] bigBox = {10, 20, 30};
@@ -46,61 +45,61 @@ public class Main {
 
 
         System.out.println(" Задача №1.1");
-        int[] arr1 = new int[3];
-        for (int j = 0; j < 3; j++) {
-            System.out.print(arr1[j] + " ");
+        int[] arr1 = new int[12];
+        for (int q = 0; q < arr1.length; q++) {
+            System.out.print(arr1[q] + " ");
         }
         System.out.println();
         System.out.println("Задача 1.2");
         double[] arr2 = {1.57, 7.654, 9.986};
         for (int j = 0; j < arr2.length; j++) {
-            System.out.print(arr2[0] + " ");
+            System.out.print(arr2[j] + " ");
         }
         System.out.println();
         System.out.println(" Задача 1.3");
-        int[] arrs = new int[5];
-        arrs[0] = 5;
-        for (i = 0; i < arrs.length; i++) {
-            System.out.print(arrs[0] + " ");
+        int[] arr3 = new int[5];
+        arr3[0] = 5;
+        for (i = 0; i < arr3.length; i++) {
+            System.out.print(arr3[i] + " ");
         }
         System.out.println();
         System.out.println("Задача 2.1");
-        int[] arr5 = new int[3];
-        for (int j = 0; j < 3; j++) {
-            arr5[j] = j + 1;
-            System.out.print(arr5[j] + " ");
+        for (int q = 0; q < arr1.length; q++) {
         }
+        System.out.print(Arrays.toString(arr1));
+
         System.out.println();
         System.out.println("задача 2.2");
-        double[] arr3 = {1.57, 7.654, 9.986};
-        for (double q = 0; q < arr3.length; q++) {
-            System.out.print(arr3[(int) q] + " ");
+        for (double j = 0; j < arr2.length; j++) {
         }
+        System.out.print(Arrays.toString(arr2));
+
         System.out.println();
         System.out.println(" Задача 2.3");
-        int[] arrs1 = new int[5];
-        arrs1[0] = 5;
-        for (i = 0; i < arrs.length; i++) {
-            System.out.print(arrs1[i] + " ");
+        arr3[0] = 5;
+        for (i = 0; i < arr3.length; i++) {
         }
+        System.out.print(Arrays.toString(arr3));
+
         System.out.println();
         System.out.println(" Задача 3.1");
-        int[] arrs2 = new int[3];
-        arrs2[2] = 3;
-        for (i = 2; i >= 0; i--) {
-            System.out.print(arrs2[i] + " ");
+        arr1[11] = 12;
+        for (i = 11; i >= 0; i--) {
         }
+        System.out.print(Arrays.toString(arr1));
+
         System.out.println();
         System.out.println("Задача 3.2");
         for (double q = 2; q >= 0; q--) {
-            System.out.print(arr3[(int) q] + " ");
-
         }
+        System.out.print(Arrays.toString(arr2));
+
         System.out.println();
         System.out.println(" Задача 3.3");
         for (i = 4; i >= 0; i--) {
-            System.out.print(arrs1[i] + " ");
         }
+        System.out.print(Arrays.toString(arr3));
+
         System.out.println();
         System.out.println(" Задача 4.1 ");
         int[] books = {1, 2, 3, 4, 5, 6, 7, 8, 10, 12};
@@ -108,10 +107,10 @@ public class Main {
             if (books[i] % 2 != 0) {
                 books[i] = books[i] + 1;
             }
-        System.out.println(Arrays.toString(books)+ " ");
+        System.out.println(Arrays.toString(books) + " ");
 
 
-        }
+    }
 
 
 
